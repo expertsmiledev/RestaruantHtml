@@ -1,0 +1,624 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+section.menu{
+    background: url("images/hero\ image.png") center center/cover no-repeat;
+    min-height: 800px;
+    margin: 0;
+    padding-top: 32px;
+}
+.container {
+    width: 1140px; 
+    margin: 0 auto; 
+}
+.header_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_items {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.menu_items:hover{
+    color: rgb(21, 192, 192);
+}
+.icon_header{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 21px;
+    height: 50px;
+    position: relative;
+}
+.img_cart {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+.phones {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+.phones:hover {
+    color: aqua;
+}
+.phone_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.phone_holder {
+    display: flex;
+    align-items: center;
+}
+.order{
+    width: 157px;
+    height: 47.73px;
+    left: 1118px;
+    top: 40.06px;
+    background: #FF7400;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: background-color 0.5s linear;
+}
+.order:hover {
+    background-color: #894105;
+}
+.title{
+    position: relative;
+}
+.welcome {
+    position: absolute;
+    margin-top: 200px;
+    font-style: normal;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #D67E35
+}
+.toourrestaurant{
+    font-style: normal;
+    font-family: 'Tinos', serif;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.home {
+    font-style: normal;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.home::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color:#FFFFFF;
+    top: 162px;
+    left: 86px;
+}
+.home::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color:#FFFFFF;
+    top: 162px;
+    right: 86px;
+}
+.viewmenu_btn {
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: background-color 0.5s linear;
+}
+.viewmenu_btn:hover {
+    background-color: #894105;
+}
+.cards {
+    min-height: 400px;
+    padding-top: 100px;
+    background-color: #f5f2f2;
+}
+.card_descriptions{
+    display: flex;
+    justify-content: center; 
+   
+}
+.item1 {
+    width: 350px;
+    min-height: 318px;
+    margin: 0 60px;
+    background-color: #FFFFFF;
+    margin-top: -180px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.item {
+    width: 350px;
+    min-height: 318px;
+    background-color: #FFFFFF;
+    margin-top: -180px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+.text_descr {
+    display: block;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+    text-align: center;
+    padding: 0 34px 25px;
+    font-family: 'Tinos', serif;
+}
+.img_descr {
+    padding: 48px 132px 0px;
+}
+.text_title{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #2C2C2C;
+    text-align: center;
+    font-family: 'Tinos', serif;
+}
+span{
+    color: #BC9060;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.history {
+    min-height: 700px;
+    background-color: #f5f2f2;
+    padding: 50px;
+}
+.histories{
+    position: relative;
+}
+.historyofres {
+    width: 422px;
+    position: absolute;
+    left: 166px;
+}
+.history_img {
+    position: absolute;
+    right: 166px;
+}
+.history_descr {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+    margin-top: 21px;
+}
+.history_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.numbers {
+    display: flex;
+    justify-content: space-around;
+}
+.history_numbers{
+    text-align: center;
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.business_lunch {
+    min-height: 357px;
+    background: url("images/Rectangle\ 38.png")center center/cover no-repeat;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.b_items {
+    display: flex;
+    justify-content: space-around;                
+    align-items: center;
+}
+.title_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    width: 601px;
+    min-height: 120px;
+    margin-top: 80px;
+}
+.text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    font-family: 'Tinos', serif;
+    margin-top: 20px;
+}
+button.table_order {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    transition: 0.5s linear;
+}
+button:hover {
+    background-color: #562904;
+}
+.foods {
+    min-height: 800px;
+    padding: 90px 0 50px 0;
+    background-color: rgb(233, 229, 229);
+}
+.ourfoods {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.gamburger {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1140px;
+    min-height: 450px;
+}
+.gamburger_blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 585px;
+} 
+.pizza_img {
+    min-height: 400px;
+}
+.gamburger_img {
+    display: block;
+}
+.gamburger_img2 {
+    display: block;
+    margin: 29px 0;
+}
+.hamburger_images {
+    margin-left: 29px;
+}
+.gamburger_price {
+    width: 385px;
+    min-height: 470px;
+}
+.gamburger_mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.gamburgers_mini {
+    box-sizing: border-box !important; 
+    min-height: 140px;
+    width: 385px;
+    padding: 60px 0;
+}
+.gamburgers_mini1 {
+    box-sizing: border-box !important; 
+    min-height: 140px;
+    width: 385px;
+    margin-top: 25px;
+    padding: 60px 0;
+}
+.ourmenu {
+    min-height: 1000px;
+    background: url("images/bar-1869656_1920\ 2.png") center center/cover no-repeat;
+    padding: 80px 0 200px 0;
+}
+.ourmenu_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    color: white;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.gamburger_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.gamburger_items {
+    width: 320px;
+    min-height:460px;
+    background: #FFFFFF;
+    position: relative;
+    padding-bottom: 30px;
+}
+.second {
+    padding-top: 5px !important;
+}
+.recomended {
+    width: 124px;
+    min-height: 36px;
+    background: #D67E34;
+    box-sizing: border-box;
+    padding: 11px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+} 
+.img_gamburger_maxsi {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.img_recom {
+    margin-top: -35px !important;
+}
+.round_bg  {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100px;
+    background-color: #D67E34;
+    position: absolute;
+    padding: 30px;
+    box-sizing: border-box;
+    left: 192px;
+    right: 58px;
+    border: 7px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.round_bgrec {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100px;
+    background-color: #D67E34;
+    position: absolute;
+    padding: 30px;
+    box-sizing: border-box;
+    left: 192px;
+    top: 205px;
+    right: 58px;
+    border: 7px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.gamburger_maksi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-top: 22px;
+}
+.gamburger_descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 17px;
+}
+.gumburger_order {
+    display: block;
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.customers {
+    min-height: 550px;
+    background-color: #dfd9d9;
+    padding: 104px 0 107px 0;
+}
+.revord {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.customer_girl {
+    display: block;
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+.customer {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 17px;
+}
+.customer_name {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 10px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.carousel_items{ 
+    width: 5px;
+    height: 5px;
+    background: #C4C4C4;
+    border-radius: 100%; 
+}
+.carousel_items2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #FF7400;
+    border-radius: 100%;
+}
+.galery_foods {
+    min-height: 801px;
+    padding: 101px 0 100px 0;
+    background-color: #dddfdb;
+}
+.galery_title {
+    font-style: normal;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.galery_foods::after {  
+    position: absolute;
+    content: '';
+    width: 35px;
+    right: 0px;
+    top: 5000px;
+    height: 100px;
+    background-color: #FF0000;
+}
+.galery_foods::before {  
+    position: absolute;
+    content: '';
+    width: 35px;
+    left: 0px;
+    top: 5000px;
+    height: 100px;
+    background-color: #FF0000; 
+}
+.three_images {
+    width: 1110px;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.three_foods1 {
+    margin-right: 30px;
+}
+.coffee {
+    margin-right: 26px;
+    transition: 0.5s linear;
+}
+.glasses {
+    margin-bottom: 30px;
+}
+.glasses1{
+    margin-top: 30px;
+}
+.shefpovars {
+    min-height: 745px;
+    padding: 50px 0 100px 0;
+    border-top: #ea6767 solid;
+    background-color: #f5f2f2;
+}
+.ourpovars {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Tinos', sans-serif;
+}
+.photosofpovars {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 107px;
+}
+.pizzacooker {
+    display: block;
+    margin-right: 15px;
+}
+.view {
+    background:url("images/MAKE\ A\ RESERVATION.png") center center/ cover no-repeat;
+    min-height: 732px;
+}
+
+
